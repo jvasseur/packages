@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://packages.jvasseur.me/corepack.xml">
     <name>corepack</name>
     <summary>Zero-runtime-dependency package acting as bridge between Node projects and their package managers</summary>
     <group>

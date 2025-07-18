@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="resources/feed.xsl" type="text/xsl"?>
-<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://packages.jvasseur.me/corepack.xml">
     <name>corepack</name>
     <summary>Zero-runtime-dependency package acting as bridge between Node projects and their package managers</summary>
     <group>
@@ -333,7 +333,7 @@
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCaHoU/AAKCRB10fc8u8mviD0vAQCtuDRM
-r7SMS3jPVveHKDrEU/I9b6BhJyNeyHNlAeZ+PQEAhkle41YhI7dzX1FcZz4eSYvCZz7K4pkihClr
-CInMgAc=
+iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCaHoajAAKCRB10fc8u8mviDNlAQD1lI7z
+oOdbZuAD+SVMB1uWpKhlWIhhvWN4SYnFCIR0DgD/QH0XqI6Zq4idu/e43BTEYVqb/YvJXwYsOAPN
+M+1l7AA=
 -->

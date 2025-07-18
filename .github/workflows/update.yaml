@@ -1,0 +1,42 @@
+name: udpate
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch: ~
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: |
+          sudo apt-get update 
+          sudo apt-get install 0install
+      - uses: actions/checkout@v4.2.2
+        with:
+          path: packages
+      - uses: actions/checkout@v4.2.2
+        with:
+          repository: jvasseur/packaging
+          path: packaging
+      - run: python3 apps/${{ matrix.app }}.py update feeds/${{ matrix.app }}.xml
+        working-directory: packages
+        env:
+          PYTHONPATH: '.:../packaging'
+      - uses: peter-evans/create-pull-request@v7.0.8
+        with:
+          path: packages
+          commit-message: Update ${{ matrix.app }}
+          body: Update ${{ matrix.app }}
+          author: github-actions <41898282+github-actions[bot]@users.noreply.github.com>
+          branch: update/${{ matrix.app }}
+          title: Update ${{ matrix.app }}
+    strategy:
+      fail-fast: false
+      matrix:
+        app:
+          - corepack

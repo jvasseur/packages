@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>corepack</name>
+    <summary>Zero-runtime-dependency package acting as bridge between Node projects and their package managers</summary>
+    <group>
+        <command name="run" path="./dist/pmm.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml"/>
+        </command>
+        <implementation id="0.1.0" released="2020-09-26" version="0.1.0">
+            <manifest-digest sha256new="NUMNM4CDBM6NXJJ242F7CFS76SA3VL2W4OU3EE4EXC4O6GNMPBOA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.1.0.tgz" size="71025" extract="package"/>
+        </implementation>
+    </group>
+    <group>
+        <command name="run" path="./dist/corepack.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml"/>
+        </command>
+        <implementation id="0.2.0" released="2020-09-26" version="0.2.0">
+            <manifest-digest sha256new="FLX5OGFPCUT5YTDEQYH3K6JGYV2PLQ7GPJXBUDWYXGKASXLSPHRA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.2.0.tgz" size="70487" extract="package"/>
+        </implementation>
+    </group>
+    <group>
+        <command name="run" path="./dist/corepack.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml"/>
+        </command>
+        <command name="pnpm" path="./dist/pnpm.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml"/>
+        </command>
+        <command name="pnpx" path="./dist/pnpx.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml"/>
+        </command>
+        <command name="yarn" path="./dist/yarn.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml"/>
+        </command>
+        <command name="yarnpkg" path="./dist/yarnpkg.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml"/>
+        </command>
+        <implementation id="0.3.0" released="2020-09-26" version="0.3.0">
+            <manifest-digest sha256new="VZRVN4CDK5HTQ2GAFFGBOLAZKB3VILBDG2PLPYAFARRIRD4VYI6Q"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.3.0.tgz" size="70509" extract="package"/>
+        </implementation>
+        <implementation id="0.4.0" released="2020-09-30" version="0.4.0">
+            <manifest-digest sha256new="HIPER3LTZ7TZYMBHDX6YA5ZM3WI3XLP3UF6BKJYXRR2EDGML23QQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.4.0.tgz" size="52680" extract="package"/>
+        </implementation>
+        <implementation id="0.5.0" released="2020-10-07" version="0.5.0">
+            <manifest-digest sha256new="IU6FO3TSJUMXXGG4HBK4XJVANSF34JLEEGHYTAK4THE5V6XYNJVQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.5.0.tgz" size="55648" extract="package"/>
+        </implementation>
+        <implementation id="0.6.0" released="2020-10-08" version="0.6.0">
+            <manifest-digest sha256new="7JWJMYSXQJEME4GPKVLFRKGYEQ5VN5M4IUFVLGLLCMYZ3VDTCCLA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.6.0.tgz" size="56008" extract="package"/>
+        </implementation>
+        <implementation id="0.7.0" released="2021-06-29" version="0.7.0">
+            <manifest-digest sha256new="M3RRYIEODSN5DUQDVZZRAHVLKT46PS3ONKALJISPHZT3X6RVY5GA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.7.0.tgz" size="112439" extract="package"/>
+        </implementation>
+        <implementation id="0.7.1" released="2021-06-29" version="0.7.1">
+            <manifest-digest sha256new="NHFRGK6PEA23PWH4AXPDMXVVOHKDJDCE3MQMXTF4LOXOII6BOXSQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.7.1.tgz" size="112237" extract="package"/>
+        </implementation>
+        <implementation id="0.8.0" released="2021-07-05" version="0.8.0">
+            <manifest-digest sha256new="C6ISJ7JSCJ7M4SKQQCNSXFQ5J62ACQIR5ESYWSBDFX5MQ2NJBGEQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.8.0.tgz" size="112653" extract="package"/>
+        </implementation>
+        <implementation id="0.8.1" released="2021-07-27" version="0.8.1">
+            <manifest-digest sha256new="G5SK37LNCAGAYVBPVDHUQDLECXZWUZNV32GFTFIKLCFD3F5PHVLQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.8.1.tgz" size="112647" extract="package"/>
+        </implementation>
+        <implementation id="0.8.2" released="2021-07-27" version="0.8.2">
+            <manifest-digest sha256new="F5246O63O5XQDUPQT2NHDRKETLVBBOADJZZI2JADBMNBMJ2ELAUA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.8.2.tgz" size="113280" extract="package"/>
+        </implementation>
+        <implementation id="0.9.0" released="2021-08-17" version="0.9.0">
+            <manifest-digest sha256new="N23OJPJFWVYSKGQR4IXYZXCKMPEAULNQFMO6YJAOOMME4RITBKSA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.9.0.tgz" size="114240" extract="package"/>
+        </implementation>
+        <implementation id="0.10.0" released="2021-10-06" version="0.10.0">
+            <manifest-digest sha256new="XFU3A4TESVH3N7T5CVEJYY3GZTBSHEZGMRVJZFUPEEOQIA3FPXBQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.10.0.tgz" size="113898" extract="package"/>
+        </implementation>
+        <implementation id="0.11.2" released="2022-06-13" version="0.11.2">
+            <manifest-digest sha256new="NBKSQZTOK2TKYH2KIWEQAUTVA4QZ6DH44C5ITCBUHE3OZKRE2OHA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.11.2.tgz" size="599744" extract="package"/>
+        </implementation>
+        <implementation id="0.12.0" released="2022-07-09" version="0.12.0">
+            <manifest-digest sha256new="SLHRLLWHADFQHEO2CNFH2RJW6NM5YAJSZYKVGQAJYM4KXSQMOY2A"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.12.0.tgz" size="600696" extract="package"/>
+        </implementation>
+        <implementation id="0.12.1" released="2022-07-23" version="0.12.1">
+            <manifest-digest sha256new="RIEJGMI4T5NXDWIS3ONAAPQJPR3XQWCVOQF4J2SYPRNZ5XGMLPQA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.12.1.tgz" size="602020" extract="package"/>
+        </implementation>
+        <implementation id="0.12.2" released="2022-08-05" version="0.12.2">
+            <manifest-digest sha256new="M45LWC5D2AFFMLYYAPJCDTKFVJVFJ37GEEVVXER64EWMYBTFOFEA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.12.2.tgz" size="602120" extract="package"/>
+        </implementation>
+        <implementation id="0.12.3" released="2022-08-12" version="0.12.3">
+            <manifest-digest sha256new="IJEEQB7TQY7O5RLUCXRJJAA3GMOJJ3FF6UFAVCUAZSEZ4PFHDRCQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.12.3.tgz" size="602189" extract="package"/>
+        </implementation>
+        <implementation id="0.13.0" released="2022-08-19" version="0.13.0">
+            <manifest-digest sha256new="Z3ZAKWQB7VECGHBTKMVS5G7IUXK67MCO4R2EJVAJXWVII5TLUE4A"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.13.0.tgz" size="603433" extract="package"/>
+        </implementation>
+        <implementation id="0.14.0" released="2022-09-02" version="0.14.0">
+            <manifest-digest sha256new="5ETG2TZ5L6S4QMUC6CN6VB7MKEWI7YHLSJC7HS7DS2RXI2K4EWSQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.14.0.tgz" size="603805" extract="package"/>
+        </implementation>
+        <implementation id="0.14.1" released="2022-09-16" version="0.14.1">
+            <manifest-digest sha256new="RAYP2UJRJENANSUBRKP4FGONXZAVNMF4V5QZDGBM4RG4QJ6V72MA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.14.1.tgz" size="603869" extract="package"/>
+        </implementation>
+        <implementation id="0.14.2" released="2022-09-24" version="0.14.2">
+            <manifest-digest sha256new="2GEWESQW7LAD7J4KS32TL4E3G2PBSS62JMDALZ6JT6XPGA7FTXXA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.14.2.tgz" size="603924" extract="package"/>
+        </implementation>
+        <implementation id="0.15.0" released="2022-10-28" version="0.15.0">
+            <manifest-digest sha256new="GZYO5TNE7FSOQBJL4TZTIYOKW3QNMUNWOSS7JWIM3ARA7XXEBHAQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.15.0.tgz" size="605364" extract="package"/>
+        </implementation>
+        <implementation id="0.15.1" released="2022-11-04" version="0.15.1">
+            <manifest-digest sha256new="OT7OND45PXL2HUN5XSUQKFSSQTWDOEC6TPITYOXCQGITBW3EGEEQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.15.1.tgz" size="605438" extract="package"/>
+        </implementation>
+        <implementation id="0.15.2" released="2022-11-25" version="0.15.2">
+            <manifest-digest sha256new="BBWPF6EF2OTCGPLHTLLTK4GKRXORHHOKCATW4YN4WYCXCYSIOXJA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.15.2.tgz" size="605491" extract="package"/>
+        </implementation>
+        <implementation id="0.15.3" released="2022-12-30" version="0.15.3">
+            <manifest-digest sha256new="QQAMWEECHQQEKO7CN3JU7YAJSSGYFYW6BNSMB7CQYSKQMSFKMKKA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.15.3.tgz" size="605541" extract="package"/>
+        </implementation>
+    </group>
+    <group>
+        <command name="run" path="./dist/corepack.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="14.14.0.."/>
+        </command>
+        <command name="pnpm" path="./dist/pnpm.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="14.14.0.."/>
+        </command>
+        <command name="pnpx" path="./dist/pnpx.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="14.14.0.."/>
+        </command>
+        <command name="yarn" path="./dist/yarn.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="14.14.0.."/>
+        </command>
+        <command name="yarnpkg" path="./dist/yarnpkg.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="14.14.0.."/>
+        </command>
+        <implementation id="0.16.0" released="2023-02-17" version="0.16.0">
+            <manifest-digest sha256new="5F5KLMXUDI22TATEQ2FVPXARYVJU2DPCGGDACALLMLJY25OWWKVA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.16.0.tgz" size="501955" extract="package"/>
+        </implementation>
+        <implementation id="0.17.0" released="2023-02-24" version="0.17.0">
+            <manifest-digest sha256new="HF4IBREHEE2I7ERXJEH2TKFDXVSALA43EETNUOHWAH7MLF5IWTVQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.17.0.tgz" size="502160" extract="package"/>
+        </implementation>
+        <implementation id="0.17.1" released="2023-03-17" version="0.17.1">
+            <manifest-digest sha256new="6PVI6YTDIGYBBRNZUKHGOCENA7PBPG2O57LXZ42OS4A6A5GULBJQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.17.1.tgz" size="502419" extract="package"/>
+        </implementation>
+        <implementation id="0.17.2" released="2023-04-07" version="0.17.2">
+            <manifest-digest sha256new="QFKZF3XGC2PYYZRBTPYDRAYSEP66NZKJIBM6VCYD45DIYYKHT56A"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.17.2.tgz" size="502496" extract="package"/>
+        </implementation>
+    </group>
+    <group>
+        <command name="run" path="./dist/corepack.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="16.20.0.."/>
+        </command>
+        <command name="pnpm" path="./dist/pnpm.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="16.20.0.."/>
+        </command>
+        <command name="pnpx" path="./dist/pnpx.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="16.20.0.."/>
+        </command>
+        <command name="yarn" path="./dist/yarn.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="16.20.0.."/>
+        </command>
+        <command name="yarnpkg" path="./dist/yarnpkg.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="16.20.0.."/>
+        </command>
+        <implementation id="0.18.0" released="2023-05-19" version="0.18.0">
+            <manifest-digest sha256new="Z5M3BTVWDC3WWTDO6MGFH423KQSPZKSGZHRCVZ6WSCTJHLZG4UUQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.18.0.tgz" size="277422" extract="package"/>
+        </implementation>
+        <implementation id="0.18.1" released="2023-06-13" version="0.18.1">
+            <manifest-digest sha256new="A5Z4OPTLI5IVRF5SLYXRBUGYWMAOPIVZD4PNSRAEHSNVNLZNQMPA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.18.1.tgz" size="277649" extract="package"/>
+        </implementation>
+        <implementation id="0.19.0" released="2023-06-24" version="0.19.0">
+            <manifest-digest sha256new="VPLUDEAEFUOBT2YZ7KY6W3UBYN3MGFXFZNHYNVRNPJ5BKJEYKW2A"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.19.0.tgz" size="277614" extract="package"/>
+        </implementation>
+        <implementation id="0.20.0" released="2023-08-29" version="0.20.0">
+            <manifest-digest sha256new="O3VWAY7Q5IO7H7Y6FUBNUXENQYV6SWU537PG4V6FOCDUGLS54ZEQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.20.0.tgz" size="280823" extract="package"/>
+        </implementation>
+    </group>
+    <group>
+        <command name="run" path="./dist/corepack.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1.."/>
+        </command>
+        <command name="pnpm" path="./dist/pnpm.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1.."/>
+        </command>
+        <command name="pnpx" path="./dist/pnpx.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1.."/>
+        </command>
+        <command name="yarn" path="./dist/yarn.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1.."/>
+        </command>
+        <command name="yarnpkg" path="./dist/yarnpkg.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1.."/>
+        </command>
+        <implementation id="0.21.0" released="2023-10-08" version="0.21.0">
+            <manifest-digest sha256new="GI4UKW74JHDT65RYPLDMND4TJ4DMZBPEDUMFCXHTYSHOICJ5THGA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.21.0.tgz" size="281079" extract="package"/>
+        </implementation>
+        <implementation id="0.22.0" released="2023-10-21" version="0.22.0">
+            <manifest-digest sha256new="RTH47GISXWXGO6NSNO3CVFXJ77FEH5VKICLJU35RYRSH2HVRM5CQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.22.0.tgz" size="578725" extract="package"/>
+        </implementation>
+        <implementation id="0.23.0" released="2023-11-05" version="0.23.0">
+            <manifest-digest sha256new="ECR2UI7CWWBXWVCA6WR6TX4NZ54G6XYFLBNWITYG53ZUEBEZFMFQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.23.0.tgz" size="579175" extract="package"/>
+        </implementation>
+        <implementation id="0.24.0" released="2023-12-29" version="0.24.0">
+            <manifest-digest sha256new="YCKM6RPUINCQB2N2YPEBRGWM5GOYS2QRUUZOGXDEXSOKYJ6RWVSQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.24.0.tgz" size="578125" extract="package"/>
+        </implementation>
+        <implementation id="0.24.1" released="2024-01-13" version="0.24.1">
+            <manifest-digest sha256new="WASTEHKSBUARZI7FIEIRJRTMSKJ4YTVYWJPP5KHLT3R4IYLILG4Q"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.24.1.tgz" size="578282" extract="package"/>
+        </implementation>
+    </group>
+    <group>
+        <command name="run" path="./dist/corepack.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0.."/>
+        </command>
+        <command name="pnpm" path="./dist/pnpm.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0.."/>
+        </command>
+        <command name="pnpx" path="./dist/pnpx.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0.."/>
+        </command>
+        <command name="yarn" path="./dist/yarn.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0.."/>
+        </command>
+        <command name="yarnpkg" path="./dist/yarnpkg.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0.."/>
+        </command>
+        <implementation id="0.25.0" released="2024-02-20" version="0.25.0">
+            <manifest-digest sha256new="7ST6HJZ6L3MK3UISHTBJH2UJY3SOBTUDCDBGZAHTMNYY2WXANAAA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.25.0.tgz" size="222631" extract="package"/>
+        </implementation>
+        <implementation id="0.25.1" released="2024-02-20" version="0.25.1">
+            <manifest-digest sha256new="W3L7CMLKUOQWQKISYSBQLGH23RWFGMKRBLGGTEEQ4BCV4QR3XW7Q"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.25.1.tgz" size="222687" extract="package"/>
+        </implementation>
+        <implementation id="0.25.2" released="2024-02-21" version="0.25.2">
+            <manifest-digest sha256new="OTSSIUXFQZ3DLN2MVR4I5TZEPPOXRYMU5TSYKDQAFG3PTGHPZNYA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.25.2.tgz" size="223050" extract="package"/>
+        </implementation>
+        <implementation id="0.26.0" released="2024-03-08" version="0.26.0">
+            <manifest-digest sha256new="JKDZ67WDGHZU6TYVKT4YHGJSNQDK7FAYEOFQRM3TQDKTYMEFGVGA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.26.0.tgz" size="224454" extract="package"/>
+        </implementation>
+        <implementation id="0.27.0" released="2024-04-19" version="0.27.0">
+            <manifest-digest sha256new="VRDECKEXOGNL6HXP7VZ3S2C2CMB4M5DACX7LPT32PUXEE6H5M4NA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.27.0.tgz" size="224926" extract="package"/>
+        </implementation>
+        <implementation id="0.28.0" released="2024-04-20" version="0.28.0">
+            <manifest-digest sha256new="RUIYQUUCMQHK5MC5JJN6E35RETAIAUSI4QPLMBCSTVMH2OQX6KRQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.28.0.tgz" size="224925" extract="package"/>
+        </implementation>
+        <implementation id="0.28.1" released="2024-05-10" version="0.28.1">
+            <manifest-digest sha256new="TFRTR2YSGEFYS75HNQKI44T25WVXAR3P4QZUYDOIWFYZQQHRZ5YQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.28.1.tgz" size="225142" extract="package"/>
+        </implementation>
+        <implementation id="0.28.2" released="2024-05-31" version="0.28.2">
+            <manifest-digest sha256new="EGALJ2UXHTGNOZO5UMWDV6ACIIQSSVEMWY5HK2BQLGMH5VKEUQAA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.28.2.tgz" size="219319" extract="package"/>
+        </implementation>
+        <implementation id="0.29.2" released="2024-07-13" version="0.29.2">
+            <manifest-digest sha256new="6BFQBRDJXIZPIDSELU5DLA6IO26WOSSY5LGYWASN57QKHYOGLNDA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.29.2.tgz" size="215982" extract="package"/>
+        </implementation>
+        <implementation id="0.29.3" released="2024-07-21" version="0.29.3">
+            <manifest-digest sha256new="Y7ID5Q6VUQDR3EDJIXSQU2KFNRNJ3QA3KPISA735A4GVX7A3PSXA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.29.3.tgz" size="220985" extract="package"/>
+        </implementation>
+        <implementation id="0.29.4" released="2024-09-07" version="0.29.4">
+            <manifest-digest sha256new="PONTTAC2DB3DX5ZEJIXCYGELDE7UQDP2VY6EPEKWXRN7CETZROSQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.29.4.tgz" size="221045" extract="package"/>
+        </implementation>
+        <implementation id="0.30.0" released="2024-11-23" version="0.30.0">
+            <manifest-digest sha256new="P2JQRFJNPL3ZBUFGCPOVW4BAHIGPISJLMWE6KLPSE2PSN267GZ3Q"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.30.0.tgz" size="221250" extract="package"/>
+        </implementation>
+    </group>
+    <group>
+        <command name="run" path="./dist/corepack.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0..!21 | 22.11.0.."/>
+        </command>
+        <command name="pnpm" path="./dist/pnpm.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0..!21 | 22.11.0.."/>
+        </command>
+        <command name="pnpx" path="./dist/pnpx.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0..!21 | 22.11.0.."/>
+        </command>
+        <command name="yarn" path="./dist/yarn.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0..!21 | 22.11.0.."/>
+        </command>
+        <command name="yarnpkg" path="./dist/yarnpkg.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0..!21 | 22.11.0.."/>
+        </command>
+        <implementation id="0.31.0" released="2025-01-27" version="0.31.0">
+            <manifest-digest sha256new="BPTACX5WK4GBWRD3SEQLTDLDZU7KRZU23KJRSEVB52WT3VHOMKVA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.31.0.tgz" size="221759" extract="package"/>
+        </implementation>
+        <implementation id="0.32.0" released="2025-02-28" version="0.32.0">
+            <manifest-digest sha256new="GMJNLXVCLG3ZAWDFZY4BPG34MWB5L6LHFXIDF3K7CP4NPKPYFAGQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.32.0.tgz" size="227227" extract="package"/>
+        </implementation>
+        <implementation id="0.33.0" released="2025-06-02" version="0.33.0">
+            <manifest-digest sha256new="7YNL65HCGYR752DXLM4VG7IR3J2ECMANGH5N7CC3KRWZR7BR34SA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.33.0.tgz" size="227515" extract="package"/>
+        </implementation>
+    </group>
+</interface>

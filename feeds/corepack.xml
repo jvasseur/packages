@@ -305,6 +305,12 @@
         <command name="run" path="./dist/corepack.js">
             <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0..!21 | 22.11.0.."/>
         </command>
+        <command name="npm" path="./dist/npm.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0..!21 | 22.11.0.."/>
+        </command>
+        <command name="npx" path="./dist/npx.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0..!21 | 22.11.0.."/>
+        </command>
         <command name="pnpm" path="./dist/pnpm.js">
             <runner interface="https://apps.0install.net/javascript/node.xml" version="18.17.1..!19 | 20.10.0..!21 | 22.11.0.."/>
         </command>

@@ -336,4 +336,31 @@
             <archive href="https://registry.npmjs.org/corepack/-/corepack-0.33.0.tgz" size="227515" extract="package"/>
         </implementation>
     </group>
+    <group>
+        <command name="run" path="./dist/corepack.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="20.10.0..!21 | 22.11.0..!23 | 24.0.0.."/>
+        </command>
+        <command name="pnpm" path="./dist/pnpm.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="20.10.0..!21 | 22.11.0..!23 | 24.0.0.."/>
+        </command>
+        <command name="pnpx" path="./dist/pnpx.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="20.10.0..!21 | 22.11.0..!23 | 24.0.0.."/>
+        </command>
+        <command name="yarn" path="./dist/yarn.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="20.10.0..!21 | 22.11.0..!23 | 24.0.0.."/>
+        </command>
+        <command name="yarnpkg" path="./dist/yarnpkg.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="20.10.0..!21 | 22.11.0..!23 | 24.0.0.."/>
+        </command>
+        <command name="npm" path="./dist/npm.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="20.10.0..!21 | 22.11.0..!23 | 24.0.0.."/>
+        </command>
+        <command name="npx" path="./dist/npx.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="20.10.0..!21 | 22.11.0..!23 | 24.0.0.."/>
+        </command>
+        <implementation id="0.34.0" released="2025-07-19" version="0.34.0">
+            <manifest-digest sha256new="WA65DX56C5WACK676WOW4QBLYTA7JTWROKC7JKMZ53NXCH6KLFXQ"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.34.0.tgz" size="227633" extract="package"/>
+        </implementation>
+    </group>
 </interface>

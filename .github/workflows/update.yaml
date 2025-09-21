@@ -40,3 +40,4 @@ jobs:
       matrix:
         app:
           - corepack
+          - direnv

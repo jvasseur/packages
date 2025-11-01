@@ -41,3 +41,4 @@ jobs:
         app:
           - corepack
           - direnv
+          - task

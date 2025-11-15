@@ -374,5 +374,9 @@
             <manifest-digest sha256new="NEGSENRVWX5PWVE3JOA4CO26KLSCGWOR3NUHI722QAIYWW6DPGLA"/>
             <archive href="https://registry.npmjs.org/corepack/-/corepack-0.34.3.tgz" size="227955" extract="package"/>
         </implementation>
+        <implementation id="0.34.4" released="2025-11-14" version="0.34.4">
+            <manifest-digest sha256new="MLM2732NDRSKAY7GMZ5L32VCE4QCJHSXZRRRNWUASKT4UFGO2GFA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.34.4.tgz" size="228126" extract="package"/>
+        </implementation>
     </group>
 </interface>

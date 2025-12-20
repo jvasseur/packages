@@ -39,6 +39,7 @@ jobs:
       fail-fast: false
       matrix:
         app:
+          - composer
           - corepack
           - direnv
           - task

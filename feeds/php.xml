@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://packages.jvasseur.me/php.xml">
+    <name>PHP</name>
+    <summary>Popular general-purpose scripting language that is especially suited to web development</summary>
+    <package-implementation distributions="Debian" main="/usr/bin/php" package="php-cli" />
+</interface>

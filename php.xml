@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="resources/feed.xsl" type="text/xsl"?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://packages.jvasseur.me/php.xml">
+    <name>PHP</name>
+    <summary>Popular general-purpose scripting language that is especially suited to web development</summary>
+    <package-implementation distributions="Debian" main="/usr/bin/php" package="php-cli" />
+</interface>
+<!-- Base64 Signature
+iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCaUa4iQAKCRB10fc8u8mviMLCAP9GAiDM
+gdgou0Fr5I7J24/B0aE4MGAiMZaZV8azU1c1hQD5Aeo+Gff5oRGht8ynEbqOhgEHiNQBzohuM0om
+C27opQ4=
+-->

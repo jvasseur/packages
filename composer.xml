@@ -135,10 +135,18 @@
             <manifest-digest sha256new="JPGA67JENDMS7RLZSXS3XACUI5GQVPEOFXGVWZJOQUORR5K7RISQ"/>
             <file href="https://github.com/composer/composer/releases/download/2.9.3/composer.phar" size="3283968" dest="composer.phar" executable="false"/>
         </implementation>
+        <implementation id="2.9.4" released="2026-01-22" version="2.9.4">
+            <manifest-digest sha256new="5BFXI6PVT2RZ4QRLF3MJ3Q2VJGYKAVXOYL4JEEZTX2ANA7OT7HNA"/>
+            <file href="https://github.com/composer/composer/releases/download/2.9.4/composer.phar" size="3286803" dest="composer.phar" executable="false"/>
+        </implementation>
+        <implementation id="2.9.5" released="2026-01-29" version="2.9.5">
+            <manifest-digest sha256new="V3AJ57A2S57HW5ZVK7KDEY5AN7TEBUHLTQV7XDTKH4PBWA3J445A"/>
+            <file href="https://github.com/composer/composer/releases/download/2.9.5/composer.phar" size="3288946" dest="composer.phar" executable="false"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCaVTifgAKCRB10fc8u8mviOsOAP41TB+U
-DP1Js1mRHpHcvQj8slrHBlPQy/IVWDnsLvh9OwD/Xq12KQly7OsKLt9IN4B/O1Pc8owtpOlEJpkf
-n8POzAo=
+iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCaX3rDgAKCRB10fc8u8mviFqOAP4gkIda
+0cGEsQgz4Ma5yCzaEelY320QX9ETQnRRYbI/2AD+K5ywguaGEEiLRwcQxS9LpDlQuqDVyhNsak+R
+y6mYEAQ=
 -->

@@ -392,9 +392,36 @@
             <archive href="https://registry.npmjs.org/corepack/-/corepack-0.34.7.tgz" size="229495" extract="package"/>
         </implementation>
     </group>
+    <group>
+        <command name="run" path="./dist/corepack.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="22.22.2..!23 | 24.15.0..!25 | 26.0.0.."/>
+        </command>
+        <command name="pnpm" path="./dist/pnpm.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="22.22.2..!23 | 24.15.0..!25 | 26.0.0.."/>
+        </command>
+        <command name="pnpx" path="./dist/pnpx.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="22.22.2..!23 | 24.15.0..!25 | 26.0.0.."/>
+        </command>
+        <command name="yarn" path="./dist/yarn.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="22.22.2..!23 | 24.15.0..!25 | 26.0.0.."/>
+        </command>
+        <command name="yarnpkg" path="./dist/yarnpkg.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="22.22.2..!23 | 24.15.0..!25 | 26.0.0.."/>
+        </command>
+        <command name="npm" path="./dist/npm.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="22.22.2..!23 | 24.15.0..!25 | 26.0.0.."/>
+        </command>
+        <command name="npx" path="./dist/npx.js">
+            <runner interface="https://apps.0install.net/javascript/node.xml" version="22.22.2..!23 | 24.15.0..!25 | 26.0.0.."/>
+        </command>
+        <implementation id="0.35.0" released="2026-05-15" version="0.35.0">
+            <manifest-digest sha256new="NMQ7NZYTDZQHQIMLFGZRTBPDMH5KQNDDXUZU2FOE56LQPUJHW44A"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.35.0.tgz" size="124371" extract="package"/>
+        </implementation>
+    </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCaeW9QQAKCRB10fc8u8mviBDMAP986Ybc
-Xl6pYcVXJgOv2rPJIAEYh5/jm+23TMyt4waa/AD/QK4hxip5PfIi6VQ+i7SU3ohO/EkuUR4kfHOD
-lmMD9QY=
+iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCaggRrAAKCRB10fc8u8mviNdQAQCD0bTX
+TZWogPLEOK0Y+v5w0jl0Q6lvEfqSHUU9BFGRNwD7B51zoLEwjgF1CUxl4els5ubSCp7qLXgNWa7Y
+YL6OcwM=
 -->

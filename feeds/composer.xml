@@ -178,5 +178,9 @@
             <manifest-digest sha256new="L2K4IBJPCCE6YSXKP5LS4G2H3YV536KQLZNYQJONO7DH3CMWIPXA"/>
             <file href="https://github.com/composer/composer/releases/download/2.10.0/composer.phar" size="3561371" dest="composer.phar" executable="false"/>
         </implementation>
+        <implementation id="2.10.1" released="2026-06-04" version="2.10.1">
+            <manifest-digest sha256new="X7XINY5GBNGMK74OVEYJ7YUH6SUXVVEVSBSJPL5JH4PGP5SGW4GA"/>
+            <file href="https://github.com/composer/composer/releases/download/2.10.1/composer.phar" size="3565131" dest="composer.phar" executable="false"/>
+        </implementation>
     </group>
 </interface>

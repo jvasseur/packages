@@ -34,6 +34,10 @@
             <manifest-digest sha256new="RMU6ISWT7AEMSBGR5UA4EJY4XQN2QIGBV5ZR33Y5DOH7J6VM3X5Q"/>
             <file href="https://github.com/composer/composer/releases/download/2.2.28/composer.phar" size="2432002" dest="composer.phar" executable="false"/>
         </implementation>
+        <implementation id="2.2.29" released="2026-07-01" version="2.2.29">
+            <manifest-digest sha256new="QR2XGJPSV7ZZBYJG6RKFLQTM44POE5WJX72MT7BGVRDV22DB6D2Q"/>
+            <file href="https://github.com/composer/composer/releases/download/2.2.29/composer.phar" size="2410619" dest="composer.phar" executable="false"/>
+        </implementation>
         <implementation id="2.7.0" released="2024-02-08" version="2.7.0">
             <manifest-digest sha256new="25RFAMYFWWBY7IHPUEMETGN4Y62QK2ZKLG3UKKLVR5NUC6QT5IPQ"/>
             <file href="https://github.com/composer/composer/releases/download/2.7.0/composer.phar" size="2899149" dest="composer.phar" executable="false"/>
@@ -181,6 +185,10 @@
         <implementation id="2.10.1" released="2026-06-04" version="2.10.1">
             <manifest-digest sha256new="X7XINY5GBNGMK74OVEYJ7YUH6SUXVVEVSBSJPL5JH4PGP5SGW4GA"/>
             <file href="https://github.com/composer/composer/releases/download/2.10.1/composer.phar" size="3565131" dest="composer.phar" executable="false"/>
+        </implementation>
+        <implementation id="2.10.2" released="2026-07-01" version="2.10.2">
+            <manifest-digest sha256new="SYJGLLV4Y2AK5MPITPWD4XAHO52FZK5XG5LI3GEDREHN3KJN35QQ"/>
+            <file href="https://github.com/composer/composer/releases/download/2.10.2/composer.phar" size="3639279" dest="composer.phar" executable="false"/>
         </implementation>
     </group>
 </interface>

@@ -418,10 +418,14 @@
             <manifest-digest sha256new="NMQ7NZYTDZQHQIMLFGZRTBPDMH5KQNDDXUZU2FOE56LQPUJHW44A"/>
             <archive href="https://registry.npmjs.org/corepack/-/corepack-0.35.0.tgz" size="124371" extract="package"/>
         </implementation>
+        <implementation id="0.36.0" released="2026-08-28" version="0.36.0">
+            <manifest-digest sha256new="APR7TUDEVOEUT3AAR5QP4JBOQWQAQV4TS5ATJMFBJ4D7YHRNK7CA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.36.0.tgz" size="127543" extract="package"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCaggRrAAKCRB10fc8u8mviNdQAQCD0bTX
-TZWogPLEOK0Y+v5w0jl0Q6lvEfqSHUU9BFGRNwD7B51zoLEwjgF1CUxl4els5ubSCp7qLXgNWa7Y
-YL6OcwM=
+iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCapKqAQAKCRB10fc8u8mviMmWAQD7zIBF
+Cjt2dlhF383rzW0wp7wJ+rI4nhHKAKuurIcZKQEAq/dXuNdrQmswyTFDS5gp5BdsEI2BM6xcrej5
+7kAR7Qo=
 -->

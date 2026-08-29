@@ -417,5 +417,9 @@
             <manifest-digest sha256new="NMQ7NZYTDZQHQIMLFGZRTBPDMH5KQNDDXUZU2FOE56LQPUJHW44A"/>
             <archive href="https://registry.npmjs.org/corepack/-/corepack-0.35.0.tgz" size="124371" extract="package"/>
         </implementation>
+        <implementation id="0.36.0" released="2026-08-28" version="0.36.0">
+            <manifest-digest sha256new="APR7TUDEVOEUT3AAR5QP4JBOQWQAQV4TS5ATJMFBJ4D7YHRNK7CA"/>
+            <archive href="https://registry.npmjs.org/corepack/-/corepack-0.36.0.tgz" size="127543" extract="package"/>
+        </implementation>
     </group>
 </interface>

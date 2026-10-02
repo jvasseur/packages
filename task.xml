@@ -173,6 +173,10 @@
             <manifest-digest sha256new="MHLP4UVCB6KBALSU6KAHNIAC455RO7SFU36HJQYTHOGGJGVLIXZA"/>
             <archive href="https://github.com/go-task/task/releases/download/v3.53.1/task_darwin_arm64.tar.gz" size="15609872"/>
         </implementation>
+        <implementation id="3.54.0-Darwin-aarch64" released="2026-10-01" version="3.54.0">
+            <manifest-digest sha256new="PLTFEJ3PPGF3OKSPQ5CGIYVOPE6J4YTOL2G4LKHI5SVQSV2YHRHA"/>
+            <archive href="https://github.com/go-task/task/releases/download/v3.54.0/task_darwin_arm64.tar.gz" size="15770964"/>
+        </implementation>
     </group>
     <group arch="Darwin-x86_64">
         <command name="run" path="task"/>
@@ -343,6 +347,10 @@
         <implementation id="3.53.1-Darwin-x86_64" released="2026-08-18" version="3.53.1">
             <manifest-digest sha256new="CTIXH47KOWSU7KJSWBSI3FOWLS45MQWIEQ4N4PXMXFTC4HF5BUCQ"/>
             <archive href="https://github.com/go-task/task/releases/download/v3.53.1/task_darwin_amd64.tar.gz" size="16771701"/>
+        </implementation>
+        <implementation id="3.54.0-Darwin-x86_64" released="2026-10-01" version="3.54.0">
+            <manifest-digest sha256new="63YVRIOE6XLLYYNZAMFVRRUPBHTAOFRVVNKDQBZYHF4PM2UWBH7Q"/>
+            <archive href="https://github.com/go-task/task/releases/download/v3.54.0/task_darwin_amd64.tar.gz" size="17017543"/>
         </implementation>
     </group>
     <group arch="FreeBSD-aarch64">
@@ -515,6 +523,10 @@
             <manifest-digest sha256new="UEX45YIJNDVHP5QCUAME6VICVDSRDTZ35OWHHPY5OT6TSQD5RYPA"/>
             <archive href="https://github.com/go-task/task/releases/download/v3.53.1/task_freebsd_arm64.tar.gz" size="14772645"/>
         </implementation>
+        <implementation id="3.54.0-FreeBSD-aarch64" released="2026-10-01" version="3.54.0">
+            <manifest-digest sha256new="MMTHGNFQEL42ZX3QBJLFDF4KWBTH6T2DIGTWU5N7YD4YPSBI4LDA"/>
+            <archive href="https://github.com/go-task/task/releases/download/v3.54.0/task_freebsd_arm64.tar.gz" size="14901845"/>
+        </implementation>
     </group>
     <group arch="FreeBSD-armv6l">
         <command name="run" path="task"/>
@@ -685,6 +697,10 @@
         <implementation id="3.53.1-FreeBSD-armv6l" released="2026-08-18" version="3.53.1">
             <manifest-digest sha256new="33OOQGM6U2VUVKRJAU77XVZE27CYQVMUZ76TH3JOLCREE3LCUB2A"/>
             <archive href="https://github.com/go-task/task/releases/download/v3.53.1/task_freebsd_arm.tar.gz" size="15331879"/>
+        </implementation>
+        <implementation id="3.54.0-FreeBSD-armv6l" released="2026-10-01" version="3.54.0">
+            <manifest-digest sha256new="TJ6FTFZCWFZBRQKQHU3EWLUVCZICFUDCJMDSHRZIXMFT3WFO52IQ"/>
+            <archive href="https://github.com/go-task/task/releases/download/v3.54.0/task_freebsd_arm.tar.gz" size="15505045"/>
         </implementation>
     </group>
     <group arch="FreeBSD-i386">
@@ -857,6 +873,10 @@
             <manifest-digest sha256new="TUT7YDT3CUFL5BJBQ2EOR2XANYOLIULG2DJIVY7NX3EOE2SUQIAA"/>
             <archive href="https://github.com/go-task/task/releases/download/v3.53.1/task_freebsd_386.tar.gz" size="15231159"/>
         </implementation>
+        <implementation id="3.54.0-FreeBSD-i386" released="2026-10-01" version="3.54.0">
+            <manifest-digest sha256new="ETYMZ5RYBTUQTC7SW3W27DYSXAJRTC6ICTAEIUKOAZ35TSRR5NPQ"/>
+            <archive href="https://github.com/go-task/task/releases/download/v3.54.0/task_freebsd_386.tar.gz" size="15417594"/>
+        </implementation>
     </group>
     <group arch="FreeBSD-x86_64">
         <command name="run" path="task"/>
@@ -1027,6 +1047,10 @@
         <implementation id="3.53.1-FreeBSD-x86_64" released="2026-08-18" version="3.53.1">
             <manifest-digest sha256new="UEY3GWTLWSJAPX5YVOXS6JUP7Q7DL7NMZQ7JCCMQBY3MFNXJ65VQ"/>
             <archive href="https://github.com/go-task/task/releases/download/v3.53.1/task_freebsd_amd64.tar.gz" size="16328060"/>
+        </implementation>
+        <implementation id="3.54.0-FreeBSD-x86_64" released="2026-10-01" version="3.54.0">
+            <manifest-digest sha256new="PPWDIANN3L2B274ZOT7MY6QAA53W4Q5N6D4BJY36FJNWFA546DVQ"/>
+            <archive href="https://github.com/go-task/task/releases/download/v3.54.0/task_freebsd_amd64.tar.gz" size="16534060"/>
         </implementation>
     </group>
     <group arch="Linux-aarch64">
@@ -1199,6 +1223,10 @@
             <manifest-digest sha256new="OIQ3LNMV2QZW6LCAUKF4FF6LEML7XWINOQH27A524Y6ZVBILGP2A"/>
             <archive href="https://github.com/go-task/task/releases/download/v3.53.1/task_linux_arm64.tar.gz" size="14812787"/>
         </implementation>
+        <implementation id="3.54.0-Linux-aarch64" released="2026-10-01" version="3.54.0">
+            <manifest-digest sha256new="PVNLXNXM5YFIAQJT34DZOAQZDC3L2MI4BTWCHZWIB2OHIMPAWEZQ"/>
+            <archive href="https://github.com/go-task/task/releases/download/v3.54.0/task_linux_arm64.tar.gz" size="14937073"/>
+        </implementation>
     </group>
     <group arch="Linux-armv6l">
         <command name="run" path="task"/>
@@ -1369,6 +1397,10 @@
         <implementation id="3.53.1-Linux-armv6l" released="2026-08-18" version="3.53.1">
             <manifest-digest sha256new="HQBJDXPFOOOA6UZV5GLKYGJKK2JHOX3GDZGKG7467TMMTASA4LZA"/>
             <archive href="https://github.com/go-task/task/releases/download/v3.53.1/task_linux_arm.tar.gz" size="15364773"/>
+        </implementation>
+        <implementation id="3.54.0-Linux-armv6l" released="2026-10-01" version="3.54.0">
+            <manifest-digest sha256new="DT7M2PICNW6GWHMPVTL4UHAYJXL32PV37JLAIAMSF7D6RGSXS2LA"/>
+            <archive href="https://github.com/go-task/task/releases/download/v3.54.0/task_linux_arm.tar.gz" size="15543202"/>
         </implementation>
     </group>
     <group arch="Linux-i386">
@@ -1541,6 +1573,10 @@
             <manifest-digest sha256new="LYYZKER7PXYVINYSIRA7TNO3JDUEY65IHHFVOJHL44HHAM2NSXPQ"/>
             <archive href="https://github.com/go-task/task/releases/download/v3.53.1/task_linux_386.tar.gz" size="15289253"/>
         </implementation>
+        <implementation id="3.54.0-Linux-i386" released="2026-10-01" version="3.54.0">
+            <manifest-digest sha256new="XU564JYDGWHBWJT6V5L25E3YIC7UO4R7CJMIH2OATNHKR2KILKOA"/>
+            <archive href="https://github.com/go-task/task/releases/download/v3.54.0/task_linux_386.tar.gz" size="15470165"/>
+        </implementation>
     </group>
     <group arch="Linux-x86_64">
         <command name="run" path="task"/>
@@ -1712,6 +1748,10 @@
             <manifest-digest sha256new="MPQSGWITMPB4FV4PJEZCBXU6MN5E55PW776EGEGX5JIP7TNWNWWQ"/>
             <archive href="https://github.com/go-task/task/releases/download/v3.53.1/task_linux_amd64.tar.gz" size="16366933"/>
         </implementation>
+        <implementation id="3.54.0-Linux-x86_64" released="2026-10-01" version="3.54.0">
+            <manifest-digest sha256new="4IUTK7CEBRK2JKOVALKXZ4S4FNETPGDGWDSXA5INQR3LMUIWVNUQ"/>
+            <archive href="https://github.com/go-task/task/releases/download/v3.54.0/task_linux_amd64.tar.gz" size="16571251"/>
+        </implementation>
     </group>
     <group arch="Windows-aarch64">
         <command name="run" path="task.exe"/>
@@ -1882,6 +1922,10 @@
         <implementation id="3.53.1-Windows-aarch64" released="2026-08-18" version="3.53.1">
             <manifest-digest sha256new="TMHUJNVRDQC4J7VJZEZHIX6IY4AMTGKIWLFPQF6BCN6BGNLBMDAA"/>
             <archive href="https://github.com/go-task/task/releases/download/v3.53.1/task_windows_arm64.zip" size="14958993"/>
+        </implementation>
+        <implementation id="3.54.0-Windows-aarch64" released="2026-10-01" version="3.54.0">
+            <manifest-digest sha256new="D5VLFENXBIOWH3CVWMLIENFJ5M5BYDHPOO5Z6IAJANOKQICDRAGA"/>
+            <archive href="https://github.com/go-task/task/releases/download/v3.54.0/task_windows_arm64.zip" size="15113687"/>
         </implementation>
     </group>
     <group arch="Windows-armv6l">
@@ -2201,6 +2245,10 @@
             <manifest-digest sha256new="CSL4SS3A4ASF3GPJGMVFOEEH75MPPDV7NPDLTPJGK42THV5H22CQ"/>
             <archive href="https://github.com/go-task/task/releases/download/v3.53.1/task_windows_386.zip" size="16069967"/>
         </implementation>
+        <implementation id="3.54.0-Windows-i386" released="2026-10-01" version="3.54.0">
+            <manifest-digest sha256new="MCBNBG2I6IQWHHFNNQLX4YYWOSMZ3TZ3OFMDNT33QK26DKTJVSMA"/>
+            <archive href="https://github.com/go-task/task/releases/download/v3.54.0/task_windows_386.zip" size="16287419"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="task.exe"/>
@@ -2372,10 +2420,14 @@
             <manifest-digest sha256new="R3RJCQM74GUYA3VQOPXSUUJJ6C537ZVBGTYODB5TL6RRX6ULEXMQ"/>
             <archive href="https://github.com/go-task/task/releases/download/v3.53.1/task_windows_amd64.zip" size="16806178"/>
         </implementation>
+        <implementation id="3.54.0-Windows-x86_64" released="2026-10-01" version="3.54.0">
+            <manifest-digest sha256new="CSQBKHSUSGX56JMJGOVQZKDP76REDPA3UIEYJFGBLQWPMO6D2QXQ"/>
+            <archive href="https://github.com/go-task/task/releases/download/v3.54.0/task_windows_amd64.zip" size="17023230"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCaoYVQQAKCRB10fc8u8mviEXvAP9jDas5
-i4qeRL6zdUuFb4UkrCPizNg5rrROSHa+VM7CEwD+JVzkweK+vwRLjfjJhe1McqJaR5OFhVniHthB
-fQmv+Qg=
+iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCar/WGQAKCRB10fc8u8mviFQWAQC4tejY
+dSeY7Dz+FCnpkrW3TiWE7AZ0fjz3+SzvVVGgAQEA5uRbNydLOpGC0rQ4wo6Tj1y5q4IObf+BwcS6
+ZX+PVQ8=
 -->

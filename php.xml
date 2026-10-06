@@ -3,10 +3,12 @@
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://packages.jvasseur.me/php.xml">
     <name>PHP</name>
     <summary>Popular general-purpose scripting language that is especially suited to web development</summary>
+    <homepage>https://www.php.net/</homepage>
+    <icon href="https://www.php.net/images/logos/php-logo-white.svg" type="image/svg+xml"/>
     <package-implementation distributions="Debian" main="/usr/bin/php" package="php-cli" />
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCaUa4iQAKCRB10fc8u8mviMLCAP9GAiDM
-gdgou0Fr5I7J24/B0aE4MGAiMZaZV8azU1c1hQD5Aeo+Gff5oRGht8ynEbqOhgEHiNQBzohuM0om
-C27opQ4=
+iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCasTDvgAKCRB10fc8u8mviMi4AQDXHvwd
+P+ygIqFWN04vx9fGg6xFanRNQarkh6c98WbWZwEApCjeCvmK34Wl+Ydz1EplzEvUnvLNq4vpxk34
+5XBQ+w0=
 -->

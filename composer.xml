@@ -3,6 +3,8 @@
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://packages.jvasseur.me/composer.xml">
     <name>composer</name>
     <summary>Dependency Manager for PHP</summary>
+    <homepage>https://getcomposer.org/</homepage>
+    <icon href="https://getcomposer.org/img/logo-composer-transparent.png" type="image/png"/>
     <group>
         <command name="run" path="composer.phar">
             <runner interface="https://packages.jvasseur.me/php.xml"/>
@@ -202,7 +204,7 @@
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCapKp+wAKCRB10fc8u8mviNiYAQC5TUWk
-dpREeOBZZAjErUulMv6tJ2/N+zCEtZnXIFM+NQEA8e84fEPDwRCO8cUl4svNXmLjXIlhfh7DPvGm
-cvpBFA0=
+iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCasTDuQAKCRB10fc8u8mviI6BAQCJw3yR
+u04s/Sd0ndeov/dx7F223nxAzgO2KtH7vP9SUwEA+aWhvMyTxRq5amOu+DV+t63fHkwflJTsoc/2
+Az3wOAc=
 -->

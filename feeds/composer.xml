@@ -2,6 +2,8 @@
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://packages.jvasseur.me/composer.xml">
     <name>composer</name>
     <summary>Dependency Manager for PHP</summary>
+    <homepage>https://getcomposer.org/</homepage>
+    <icon href="https://getcomposer.org/img/logo-composer-transparent.png" type="image/png"/>
     <group>
         <command name="run" path="composer.phar">
             <runner interface="https://packages.jvasseur.me/php.xml"/>

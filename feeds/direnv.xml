@@ -2,6 +2,7 @@
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://packages.jvasseur.me/direnv.xml">
     <name>direnv</name>
     <summary>augments existing shells with a new feature that can load and unload environment variables depending on the current directory.</summary>
+    <homepage>https://direnv.net/</homepage>
     <group arch="Darwin-aarch64">
         <command name="run" path="direnv"/>
         <implementation id="2.28.0-Darwin-aarch64" released="2021-03-12" version="2.28.0">

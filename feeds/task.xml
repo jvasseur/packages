@@ -2,6 +2,8 @@
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://packages.jvasseur.me/task.xml">
     <name>task</name>
     <summary>fast, cross-platform build tool inspired by Make, designed for modern workflows.</summary>
+    <homepage>https://taskfile.dev/</homepage>
+    <icon href="https://taskfile.dev/img/logo.svg" type="image/svg+xml"/>
     <group arch="Darwin-aarch64">
         <command name="run" path="task"/>
         <implementation id="3.30.1-Darwin-aarch64" released="2023-09-15" version="3.30.1">

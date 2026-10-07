@@ -73,6 +73,10 @@
             <manifest-digest sha256new="X74LRVLHCHTCDOQK2UCBR7IW3J72RCIRGRHQTJWKNJHSP2NNYKHA"/>
             <file href="https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.darwin-arm64" size="7899154" dest="direnv" executable="true"/>
         </implementation>
+        <implementation id="2.38.1-Darwin-aarch64" released="2026-10-06" version="2.38.1">
+            <manifest-digest sha256new="PXLZKI6REDRE7K4N6FM5RF3SBTSK4LDVTNNRIB6FCNIW7OLXN75Q"/>
+            <file href="https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.darwin-arm64" size="8106530" dest="direnv" executable="true"/>
+        </implementation>
     </group>
     <group arch="Darwin-i386">
         <command name="run" path="direnv"/>
@@ -247,6 +251,10 @@
             <manifest-digest sha256new="SFEIBAMDGVIWWXBD77U2IGTHJI6QFE234CIIFPQWLCJ7WW642XXA"/>
             <file href="https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.darwin-amd64" size="8350032" dest="direnv" executable="true"/>
         </implementation>
+        <implementation id="2.38.1-Darwin-x86_64" released="2026-10-06" version="2.38.1">
+            <manifest-digest sha256new="DUY4QSO4TW5ACGJTAHTXMUVGQISMJ46EPB7J6KYZZ24OWUIWV7PA"/>
+            <file href="https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.darwin-amd64" size="8711696" dest="direnv" executable="true"/>
+        </implementation>
     </group>
     <group arch="FreeBSD-armv6l">
         <command name="run" path="direnv"/>
@@ -369,6 +377,10 @@
         <implementation id="2.37.1-FreeBSD-armv6l" released="2025-07-20" version="2.37.1">
             <manifest-digest sha256new="CTKHNMGYTOYVTNADCYXUEAA2BNLKWTINMJK6JUVMDJ7HS5L4FSXQ"/>
             <file href="https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-arm" size="7864514" dest="direnv" executable="true"/>
+        </implementation>
+        <implementation id="2.38.1-FreeBSD-armv6l" released="2026-10-06" version="2.38.1">
+            <manifest-digest sha256new="EJ6CAHP5MUMNBF6NPGXBBUO66STC6472VGDMVFLXNACLZ2HSJXIQ"/>
+            <file href="https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.freebsd-arm" size="8192172" dest="direnv" executable="true"/>
         </implementation>
     </group>
     <group arch="FreeBSD-i386">
@@ -493,6 +505,10 @@
             <manifest-digest sha256new="RKCHAOKFY2DRYOOK7ROTIR4X2F6ZM62WHXF36D3NP646WQJVXNEQ"/>
             <file href="https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-386" size="7774402" dest="direnv" executable="true"/>
         </implementation>
+        <implementation id="2.38.1-FreeBSD-i386" released="2026-10-06" version="2.38.1">
+            <manifest-digest sha256new="U343K6Q7MRXMRDNGHZWEMQWA4YV45S42TLO3NSAD7DKONIW6UFYA"/>
+            <file href="https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.freebsd-386" size="8126636" dest="direnv" executable="true"/>
+        </implementation>
     </group>
     <group arch="FreeBSD-x86_64">
         <command name="run" path="direnv"/>
@@ -615,6 +631,10 @@
         <implementation id="2.37.1-FreeBSD-x86_64" released="2025-07-20" version="2.37.1">
             <manifest-digest sha256new="3FRBZ2WAABQ6Q5SSW2PHQKLJDDH3JBTN2PFWS7G6SUEBXJGGUKEQ"/>
             <file href="https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.freebsd-amd64" size="8138946" dest="direnv" executable="true"/>
+        </implementation>
+        <implementation id="2.38.1-FreeBSD-x86_64" released="2026-10-06" version="2.38.1">
+            <manifest-digest sha256new="6OEQUAVINZL4OYF47V6O2LYKEVOLFR2CNESJFGMLCSU5MPQLQD7Q"/>
+            <file href="https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.freebsd-amd64" size="8487084" dest="direnv" executable="true"/>
         </implementation>
     </group>
     <group arch="Linux-armv6l">
@@ -739,6 +759,10 @@
             <manifest-digest sha256new="WUG4KKRT4ADYUTKFOAHBF3JT36QA5IQ2SCBGQRDOD2R67375P7HQ"/>
             <file href="https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-arm" size="7864504" dest="direnv" executable="true"/>
         </implementation>
+        <implementation id="2.38.1-Linux-armv6l" released="2026-10-06" version="2.38.1">
+            <manifest-digest sha256new="QHL252QRS4IYII4GOCXU4RUSJ73R7BDVBQKH2KDL545KSXTSPVPQ"/>
+            <file href="https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-arm" size="8323234" dest="direnv" executable="true"/>
+        </implementation>
     </group>
     <group arch="Linux-aarch64">
         <command name="run" path="direnv"/>
@@ -829,6 +853,10 @@
         <implementation id="2.37.1-Linux-aarch64" released="2025-07-20" version="2.37.1">
             <manifest-digest sha256new="KIXS2O3TIXNIUVTTN7TIFPHHYW3TM5C47E56EWK364RW2GEROK3A"/>
             <file href="https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-arm64" size="7667896" dest="direnv" executable="true"/>
+        </implementation>
+        <implementation id="2.38.1-Linux-aarch64" released="2026-10-06" version="2.38.1">
+            <manifest-digest sha256new="HKINWTQWYGV337J2BMFE5RN34EO3N4CLIRZR5TZU3GM5SIYEZHRA"/>
+            <file href="https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-arm64" size="7930018" dest="direnv" executable="true"/>
         </implementation>
     </group>
     <group arch="Linux-i386">
@@ -953,6 +981,10 @@
             <manifest-digest sha256new="PRWZYU4VBL6NXBN4KTUPLFBNPINW7VQD65IP5WCUJC2T4OVZZQ2A"/>
             <file href="https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-386" size="7856312" dest="direnv" executable="true"/>
         </implementation>
+        <implementation id="2.38.1-Linux-i386" released="2026-10-06" version="2.38.1">
+            <manifest-digest sha256new="FUD3ZF6M6HSQWZ6Z4KEPZYS52MUHWJPBEEW5J32EWVRZKL3G2X5Q"/>
+            <file href="https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-386" size="8261794" dest="direnv" executable="true"/>
+        </implementation>
     </group>
     <group arch="Linux-ppc64">
         <command name="run" path="direnv"/>
@@ -1039,6 +1071,10 @@
         <implementation id="2.37.1-Linux-ppc64" released="2025-07-20" version="2.37.1">
             <manifest-digest sha256new="E7IKTRQPQDLT4Q5BKMN7ADVHWMGBRN6FP5R6MMIZUMOPUTREQTWQ"/>
             <file href="https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-ppc64" size="7995576" dest="direnv" executable="true"/>
+        </implementation>
+        <implementation id="2.38.1-Linux-ppc64" released="2026-10-06" version="2.38.1">
+            <manifest-digest sha256new="YODEUED53WWELZYVNG4APRU3N4KYRXISMKIA76R3DFBPQSWHDSFQ"/>
+            <file href="https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-ppc64" size="8388770" dest="direnv" executable="true"/>
         </implementation>
     </group>
     <group arch="Linux-x86_64">
@@ -1163,6 +1199,10 @@
             <manifest-digest sha256new="H2JCGDJR5DPFA7YVXKPBK47YFSINMY3RRCO5SPV4YL35JSG25JZQ"/>
             <file href="https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.linux-amd64" size="8151224" dest="direnv" executable="true"/>
         </implementation>
+        <implementation id="2.38.1-Linux-x86_64" released="2026-10-06" version="2.38.1">
+            <manifest-digest sha256new="ZXY57GECJHXZWHJF3C2AZ2JVM4SXPGF77XAS6XL6V22S3L5YQIFA"/>
+            <file href="https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.linux-amd64" size="8548514" dest="direnv" executable="true"/>
+        </implementation>
     </group>
     <group arch="Windows-aarch64">
         <command name="run" path="direnv.exe"/>
@@ -1173,6 +1213,10 @@
         <implementation id="2.37.1-Windows-aarch64" released="2025-07-20" version="2.37.1">
             <manifest-digest sha256new="ZF4YV746QFXPWEYXMRLPYCR7Y5QNJX7ZZZKBC56JTJRA7SKD6ZQQ"/>
             <file href="https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-arm64" size="7791104" dest="direnv.exe" executable="true"/>
+        </implementation>
+        <implementation id="2.38.1-Windows-aarch64" released="2026-10-06" version="2.38.1">
+            <manifest-digest sha256new="CPF3BUHJTEVTBEH5IIQWNIJCPWCMXQHGIF5INIXZYSFU7RUDNKYQ"/>
+            <file href="https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.windows-arm64.exe" size="8052224" dest="direnv.exe" executable="true"/>
         </implementation>
     </group>
     <group arch="Windows-i386">
@@ -1297,6 +1341,10 @@
             <manifest-digest sha256new="34FFAHR6A3ZLS7YPS7R4BZLQ2BFMHPO5IVCXVZY6O3A3PV53ZKHQ"/>
             <file href="https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-386" size="8091648" dest="direnv.exe" executable="true"/>
         </implementation>
+        <implementation id="2.38.1-Windows-i386" released="2026-10-06" version="2.38.1">
+            <manifest-digest sha256new="XQFJ26L3AS7B75NJTAOY6FK45ITMSZAORK6KQQEAWXFRN53R5YPQ"/>
+            <file href="https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.windows-386.exe" size="8516096" dest="direnv.exe" executable="true"/>
+        </implementation>
     </group>
     <group arch="Windows-x86_64">
         <command name="run" path="direnv.exe"/>
@@ -1419,6 +1467,10 @@
         <implementation id="2.37.1-Windows-x86_64" released="2025-07-20" version="2.37.1">
             <manifest-digest sha256new="4T7QENG2G5AXHG47725JAHTGFJXHD6GPAVFBADO56YG3WAKNDFQA"/>
             <file href="https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-amd64" size="8418816" dest="direnv.exe" executable="true"/>
+        </implementation>
+        <implementation id="2.38.1-Windows-x86_64" released="2026-10-06" version="2.38.1">
+            <manifest-digest sha256new="GHZPDWEBN7QLRGLPCX33EI7KRTJ5BQJLWPOL3FPYTDZJJZC5ICGQ"/>
+            <file href="https://github.com/direnv/direnv/releases/download/v2.38.1/direnv.windows-amd64.exe" size="8830976" dest="direnv.exe" executable="true"/>
         </implementation>
     </group>
 </interface>

@@ -45,6 +45,10 @@
             <manifest-digest sha256new="2ZKPETWJIWJU7VJ3VF6JE4PXFLC3MVB7REAX2M5ALIMOMYSLYQVQ"/>
             <file href="https://github.com/composer/composer/releases/download/2.2.30/composer.phar" size="2412510" dest="composer.phar" executable="false"/>
         </implementation>
+        <implementation id="2.2.31" released="2026-10-29" version="2.2.31">
+            <manifest-digest sha256new="GIWPENYVD3H3ISPQV475HPSVVXRQUNTOVOWMGK27SW5PFIOAE5JQ"/>
+            <file href="https://github.com/composer/composer/releases/download/2.2.31/composer.phar" size="2436102" dest="composer.phar" executable="false"/>
+        </implementation>
         <implementation id="2.7.0" released="2024-02-08" version="2.7.0">
             <manifest-digest sha256new="25RFAMYFWWBY7IHPUEMETGN4Y62QK2ZKLG3UKKLVR5NUC6QT5IPQ"/>
             <file href="https://github.com/composer/composer/releases/download/2.7.0/composer.phar" size="2899149" dest="composer.phar" executable="false"/>
@@ -201,10 +205,18 @@
             <manifest-digest sha256new="QCNRLIM5P3YZ3BPYA6BG4OQAVWLAYGG4THRIAHTECF5YXPLFPUAA"/>
             <file href="https://github.com/composer/composer/releases/download/2.10.3/composer.phar" size="3642137" dest="composer.phar" executable="false"/>
         </implementation>
+        <implementation id="2.11.0-rc1" released="2026-10-22" stability="testing" version="2.11.0-rc1">
+            <manifest-digest sha256new="MCFQSITVUMSDQ2WJC4T2M3P62G2EI4RGLMR7DQTLS5QYO5K3YJHQ"/>
+            <file href="https://github.com/composer/composer/releases/download/2.11.0-RC1/composer.phar" size="3780704" dest="composer.phar" executable="false"/>
+        </implementation>
+        <implementation id="2.11.0" released="2026-10-29" version="2.11.0">
+            <manifest-digest sha256new="VSGEGCPR2U6BTROFDJNMP66DW6FP425FERYO46IPX2IYKNY5PBXQ"/>
+            <file href="https://github.com/composer/composer/releases/download/2.11.0/composer.phar" size="3786815" dest="composer.phar" executable="false"/>
+        </implementation>
     </group>
 </interface>
 <!-- Base64 Signature
-iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCasTDuQAKCRB10fc8u8mviI6BAQCJw3yR
-u04s/Sd0ndeov/dx7F223nxAzgO2KtH7vP9SUwEA+aWhvMyTxRq5amOu+DV+t63fHkwflJTsoc/2
-Az3wOAc=
+iHUEABYKAB0WIQR/4nwHEMWMzC8lkoJ10fc8u8mviAUCauTBuwAKCRB10fc8u8mviEx8APwOQLhz
+uuXEAH75VMRPOxqLd8yrAI7BE7QZ7ETCcb8PfAEA8RZpQ2QfVtxd5Ty0ygK89BbMuQ0W5e4zOpd6
+tGz7hwk=
 -->

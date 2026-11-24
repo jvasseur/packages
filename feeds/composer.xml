@@ -224,5 +224,13 @@
             <manifest-digest sha256new="MQ6PAOGOD2MW6TMUE77AG2I3AD36SUVKPNUSPZVT6XPTPGOF44SQ"/>
             <file href="https://github.com/composer/composer/releases/download/2.11.2/composer.phar" size="3815650" dest="composer.phar" executable="false"/>
         </implementation>
+        <implementation id="2.2.33" released="2026-11-24" version="2.2.33">
+            <manifest-digest sha256new="KHJHK7S54H2RK2HE4P4DYXE2DHN7QZRZFXNTJRICQLWLMHXE3EJQ"/>
+            <file href="https://github.com/composer/composer/releases/download/2.2.33/composer.phar" size="2441650" dest="composer.phar" executable="false"/>
+        </implementation>
+        <implementation id="2.11.3" released="2026-11-24" version="2.11.3">
+            <manifest-digest sha256new="TD7Q3TJMVAKNTHMRX6NKLQ2B5PWRRCIZN66ANRU362H46MXMNKVQ"/>
+            <file href="https://github.com/composer/composer/releases/download/2.11.3/composer.phar" size="3820169" dest="composer.phar" executable="false"/>
+        </implementation>
     </group>
 </interface>
